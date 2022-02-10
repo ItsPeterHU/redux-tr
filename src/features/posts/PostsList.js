@@ -39,7 +39,6 @@ export const PostsList = () => {
   }, [postStatus, dispatch]);
 
   let content;
-  console.log(posts);
 
   if (postStatus === 'loading') {
     content = <Spinner text='Loading...' />
